@@ -54,3 +54,16 @@ namespace Task2
 } 
 ```
 ---------------------------------
+### Education
+Bachelor, Belarusian State University, Faculty of Radiophysics and Computer Technologies, Minsk
+
+-------------------
+### Languages ###
++ Russian
++ Belarusian
++ Ukrainian
++ English (A2-B1)
+
+Language experience:
+
+Volunteer at the II European Games (services for viewers).
