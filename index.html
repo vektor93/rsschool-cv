@@ -73,19 +73,15 @@
                     <h3>Languages</h3>
                     <ul->
                         <li>
-                            <img src="" alt="">
                             <p>Russian</p>
                         </li>
                         <li>
-                            <img src="" alt="">
                             <p>Belarusian</p>
                         </li>
                         <li>
-                            <img src="" alt="">
                             <p>Ukrainian</p>
                         </li>
                         <li>
-                            <img src="" alt="">
                             <p>English (A2-B1)</p>
                         </li>
                     </ul->
@@ -98,24 +94,68 @@
     <img src="" alt="">
     <h3>Briefly About Myself</h3>
 </div>
-<p></p>
-<p></p>
-            </section>
+<p>At the moment I am studying in a technical specialty, and I always have been interested in everything related to mathematics and physics. 
+During my studies, I constantly learn programming. 
+I realized that I was interested in this area and I want to develop in it. 
+So I decided to try myself as a Frontend Developer, because this area is closest to me. 
+I also like working with images, editing them, etc. 
+I have good skills in Photoshop and various mobile applications related to image processing. 
+I am ready to spend and at the moment I am spending my free time to learn something new. 
+I sincerely believe that the field of programming allows you to constantly develop and improve.</p>
+<p>I believe that my drive to learn and acquire quality skills will enable me to become proficient Frontend Developer.</p>
+            <h4>My strengths:</h4>
+            <ul->
+                        <li>
+                            <p>Responsibility</p>
+                        </li>
+                        <li>
+                            <p>Communication skills</p>
+                        </li>
+
+</section>
             <section class="education">
                 <div class="sub-header">
                     <img src="" alt="">
                     <h3>Education</h3>
                 </div>
-                <p></p>
-                <p></p>
+                <p>Bachelor, Belarusian State University, Faculty of Radiophysics and Computer Technologies, Minsk
+                </p>
             </section>
             <section class="code-example">
                 <div class="sub-header">
                     <img src="" alt="">
                     <h3>Code Example</h3>
+                <pre><code>using System;
+
+                    namespace Task2
+                    {
+                        class Program
+                        {
+                            static void Main(string[] args)
+                            {
+                                Console.WriteLine("Введите число: ");
+                                int chilso = int.Parse(Console.ReadLine());  // число в десятичной
+                                Console.WriteLine("Введите основание: ");
+                                int osnovanie = int.Parse(Console.ReadLine());  // основание числа
+                                string result = "";     // переменная для результата
+                                int temp = 0;
+                                Console.WriteLine("Число в 10-ой системе = " + chilso);
+                    
+                                if (chilso > 0)     // условие, что число больше 0
+                                    while (chilso >= (osnovanie - 1))   // пока число больше самого основания
+                                    {
+                                        temp = chilso % osnovanie;
+                                        chilso = (chilso - temp) / osnovanie;
+                                        result = Convert.ToString(temp) + result;
+                                    }
+                                result = Convert.ToString(chilso) + result;
+                                Console.WriteLine("Число в " + osnovanie + "-ой системе = " + result);
+                            }
+                        }
+                    } 
+                </code>
+                </pre>
                 </div>
-                <p></p>
-                <p></p>
             </section>
             
         </aside>
