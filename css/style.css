@@ -41,7 +41,7 @@ header {
 
 header img {
   margin-bottom: 10px;
-  border: 8px solid #697b55;
+  border: 8px solid #58713c;
 
 }
 
@@ -123,7 +123,6 @@ main :not(.contacts) ul {
   margin-bottom: 10px;
   margin-left: 45px;
 }
-
 
 .about-myself p:last-of-type {
   margin-bottom: auto;
